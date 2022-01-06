@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-    /* width: 85%; */
     margin: auto;
 }
 
@@ -33,7 +32,6 @@ span{
 .top-left{
     
     margin-top: 100px;
-    /* margin-left: 100px; */
 }
 .botton{
     margin-top: 30px;
@@ -95,11 +93,37 @@ p{
 .half-width-2 img{
     max-width: 80%;
     max-height: 80%;
-    /* margin: 0 auto; */
     padding: 0 auto;
     margin-top: 30px;
     margin-left: 30px;
 }
+
+/*  app section  */
+.Application h1 {
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+}
+.app{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+.app-photo img{
+    width: 500px;
+    border-radius: 20px;
+    /* margin: auto; */
+}
+.App-Fetures{
+    margin: auto;
+    padding-left: 50px;
+}
+
+
+
+
+
+/* footer */
 #footer{
     text-align: center;
     background-color: black;
