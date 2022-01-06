@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    width: 85%;
+    /* width: 85%; */
     margin: auto;
 }
 
@@ -18,6 +18,9 @@ span{
 }
 .top{
     display: flex;
+    width: 85%;
+    margin: auto;
+
     
 }
 .half-width{
@@ -25,6 +28,7 @@ span{
 }
 .half-width img{
     max-width: 80%;
+    margin: auto;
 }
 .top-left{
     
@@ -49,21 +53,22 @@ span{
 p{
     padding-top: 25px;
     font-size: 20px;
+    margin-bottom: 40px;
 }
 /* top section end */
 .my-mission{
     display: flex;
-    /* width: 80%;
-    margin: auto; */
+     width: 85%;
+     margin: auto; 
 }
 #middle-heading{
     margin: 40px auto;
     text-align: center;
+    font-size: 40px;
 }
 .three-divs{
-    width: 25%;
+    width: 28%;
     margin: 20px auto;
-    max-width: 80%;
     padding: 20px;
     border-radius: 15px;
     
@@ -79,4 +84,39 @@ p{
 }
 #third-div{
     background-color: #FEF4D6;
+}
+/* middle section  */
+.coding{
+    display: flex;
+    margin-top: 100px;
+    width: 85%;
+    margin: auto;
+}
+.half-width-2 img{
+    max-width: 80%;
+    max-height: 80%;
+    /* margin: 0 auto; */
+    padding: 0 auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#footer{
+    text-align: center;
+    background-color: black;
+    color: #E5E5E5;
+    margin: 0px;
+    width: 100%;
+}
+
+#footer h1 {
+    font-family: 'Domine', serif;
+    font-size: 24px;
+    padding-top: 30px;
+}
+#footer h1 span {
+    color:#85479F;
+}
+#footer p {
+    padding-bottom: 30px;
+    font-size: 10px;
 }
